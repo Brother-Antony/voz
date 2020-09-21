@@ -9,7 +9,7 @@ let rec;
        rec.addEventListener("result",iniciar);
     }
 function iniciar(event) {
-    for (i = event.resultIndex; i < event.results.length; i++) {
+    for (let i = event.resultIndex; i < event.results.length; i++) {
        document.getElementById('texto').innerHTML = event.results[i][0].transcript;
     }
 }
