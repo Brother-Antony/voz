@@ -1,7 +1,7 @@
 document.getElementById('hablar').addEventListener("click",()=> {
-    decir(document.getElementById("texto").value);
+    decir(document.getElementById("text").value);
 });
 
-function decir(texto) {
-    speechSynthesis.speak(new SpeechSynthesisUtterance(texto));
+function decir(text) {
+    speechSynthesis.speak(new SpeechSynthesisUtterance(text));
 }
