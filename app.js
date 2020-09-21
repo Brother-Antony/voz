@@ -6,7 +6,7 @@ let rec;
        rec.lang = "es-PE";
        rec.continuous = true;
        rec.interim = true;
-       rec.addEventListener(" result", iniciar);
+       rec.addEventListener("result",iniciar);
     }
 function iniciar(event) {
     for (i = event.resultIndex; i < event.results.length; i++) {
