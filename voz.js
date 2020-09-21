@@ -1,5 +1,5 @@
 document.getElementById('hablar').addEventListener("click",()=> {
-    decir(document.getElementById("text").value);
+    decir(document.getElementById("texto").value);
 });
 
 function decir(texto) {
