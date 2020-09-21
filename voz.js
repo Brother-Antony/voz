@@ -3,5 +3,5 @@ document.getElementById('hablar').addEventListener("click",()=> {
 });
 
 function decir(texto) {
-    speechSynthesis.speak(new SpeechSynthesisUtterance(texto));
+    SpeechSynthesis.speak(new SpeechSynthesisUtterance(texto));
 }
