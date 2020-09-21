@@ -10,7 +10,7 @@ let rec;
     }
 function iniciar(event) {
     for (let i = event.resultIndex; i < event.results.length; i++) {
-       document.getElementById('text').innerHTML = event.results[i][0].transcript;
+       document.getElementById('textos').innerHTML = event.results[i][0].transcript;
     }
 }
 
